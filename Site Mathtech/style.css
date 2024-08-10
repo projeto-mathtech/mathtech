@@ -8,7 +8,9 @@
 :root {
     --azulescuro: #0B3D80;
     --azulclaro: #4285F3;
+    --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjaclaro: #FFF1D6;
     --laranjaclaro: #FFF1D6;
     --branco: #fff;
 }
@@ -16,11 +18,11 @@
 
 body {
     background-color: rgb(245, 245, 245);
+    /* colocar azulquase escuro no body, testar noi pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
     max-width: 1440px;
-    background-color: var(--azulescuro);
 }
 
 header {
@@ -30,7 +32,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-inline: 1.5rem;
-    margin-bottom: 2.75rem;
+    position: fixed;
+    top: 0;
+    width: 1440px;
 }
 
 #navegacao nav {
@@ -51,55 +55,110 @@ header {
     align-items: center;
 }
 
+main {
+    margin-top: 5.375rem;
+}
+
 #boasVindas {
-    max-width: 1300px;
+    max-width: 1440px;
+    background-color: var(--azulescuro);
 }
 
-#boasVindas #aa {
-    border: 1.7px solid rgb(255, 0, 0);
-    max-width: 1100px;
-    margin: 0 auto;
+#containerBoas {
     display: flex;
-    align-items: center;
+    justify-content: end;
+    align-items: start;
+    max-width: 1320px;
+    margin-inline:auto;
+    height: 89vh;
 }
 
-#boasVindasTexto {
-    align-self: flex-start;
-    margin-top: 3.5rem;
-    border: 1px solid blue;
+#textoBoas {
+    margin-right: 5.5rem;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
-#boasVindasTexto h1 {
-    font-size: 46px;
+#textoBoas h1 {
+    font-size: 37px;
     color: var(--branco);
-    max-width: 300px;
+    margin-bottom: 2.8rem;
+    /* line-height: px; */
 }
 
-#b {
+#textoBoas p {
+    font-size: 17px;
+    color: var(--branco);
+    letter-spacing: 1.23px;
+    line-height: 22px;
+}
+
+#containerBoas #span1 {
     color: var(--azulclaro);
 }
 
-#l {
+#containerBoas #span2 {
     color: var(--laranja);
 }
 
-#boasVindasTexto p {
-    color: var(--branco);
-    font-size: 17px;
-    text-align: start;
-    max-width: 300px;
+#containerBoas img {
+    margin-right: 1.6rem;
+    width: 540px;
 }
 
-#boasVindasTexto button {
-    width: 220px;
-    height: 40px;
+#textoBoas a {
+    align-self: center;
+}
+
+#textoBoas button {
+    width: 243px;
     border: none;
-    border-radius: 5px;
+    height: 61px;
+    font-size: 18px;
     background-color: var(--laranja);
+    color: var(--branco);
+    margin-top: 3.8rem;
+    border-radius: 8px;
 }
 
-#boasVindasTexto a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
+#sobreConteudo {
+    background-color: var(--laranjaclaro);
+}
+
+
+#divCont {
+    display: flex;
+}
+
+#textoCont {
+    margin-left: 4.5rem;
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#textoCont h2 {
+    font-size: 63px;
+    color: var(--azulzinho);
+    margin-bottom: 2.8rem;
+    /* line-height: px; */
+}
+
+#textoCont p {
+    font-size: 17px;
+    color: var(--azulescuro);
+    letter-spacing: 1px;
+    max-width: 490px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#divCont img {
+    margin-top: 6.6rem;
+    margin-right: 2rem;
+    margin-left: 6.6rem;
+    width: 507px;
 }
