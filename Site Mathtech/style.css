@@ -15,10 +15,24 @@
     --branco: #fff;
 }
 
+@font-face {
+    font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
+    src: url('../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+}
+
+@font-face {
+    font-family: Baron Neue;
+    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
+}
+
+@font-face {
+    font-family: Circe;
+    src: url('../fontes/circe-cufonfonts/CRC55.otf');
+}
 
 body {
     background-color: rgb(245, 245, 245);
-    /* colocar azulquase escuro no body, testar noi pc da sala do wesley, para ver tamanho do todo */
+    /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
@@ -47,12 +61,14 @@ header {
     font-size: 16px;
     text-decoration: none;
     margin-inline: 1.2rem;
-    text-transform: uppercase;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
 }
 
 #icons {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 main {
@@ -75,23 +91,24 @@ main {
 
 #textoBoas {
     margin-right: 5.5rem;
-    margin-top: 4.5rem;
+    margin-top: 6.5rem;
     display: flex;
     flex-direction: column;
 }
 
 #textoBoas h1 {
-    font-size: 37px;
+    font-size: 41px;
     color: var(--branco);
     margin-bottom: 2.8rem;
-    /* line-height: px; */
+    font-family: 'Hanken Grotesk';
 }
 
 #textoBoas p {
     font-size: 17px;
     color: var(--branco);
     letter-spacing: 1.23px;
-    line-height: 22px;
+    line-height: 23px;
+    font-family: 'Circe';
 }
 
 #containerBoas #span1 {
@@ -105,6 +122,7 @@ main {
 #containerBoas img {
     margin-right: 1.6rem;
     width: 540px;
+    margin-top: 1rem;
 }
 
 #textoBoas a {
@@ -112,20 +130,20 @@ main {
 }
 
 #textoBoas button {
-    width: 243px;
+    width: 280px;
     border: none;
-    height: 61px;
+    height: 62px;
     font-size: 18px;
     background-color: var(--laranja);
     color: var(--branco);
     margin-top: 3.8rem;
     border-radius: 8px;
+    font-family: 'Baron Neue';
 }
 
 #sobreConteudo {
     background-color: var(--laranjaclaro);
 }
-
 
 #divCont {
     display: flex;
@@ -140,25 +158,118 @@ main {
 }
 
 #textoCont h2 {
-    font-size: 63px;
+    font-size: 65px;
     color: var(--azulzinho);
-    margin-bottom: 2.8rem;
-    /* line-height: px; */
+    margin-bottom: 2.9rem;
+    font-family: 'Hanken Grotesk';
 }
 
 #textoCont p {
-    font-size: 17px;
+    font-size: 18px;
     color: var(--azulescuro);
     letter-spacing: 1px;
     max-width: 490px;
-    line-height: 22px;
+    line-height: 23px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Circe';
 }
 
 #divCont img {
-    margin-top: 6.6rem;
+    margin-top: 7.7rem;
     margin-right: 2rem;
-    margin-left: 6.6rem;
+    margin-left: 7rem;
     width: 507px;
+}
+
+#textoCont div {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    width: 356px;
+}
+
+#textoCont button {
+    width: 154px;
+    height: 50px;
+    margin-bottom: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--azulzinho);
+}
+
+#textoCont button p {
+    font-size: 26px;
+    color: var(--laranjaclaro);
+    font-family: 'Baron Neue';
+}
+
+#ativdadesHome {
+    background-color: var(--azulescuro);
+}
+
+#atvHomeDivGeral {
+    max-width: 1370px;
+    margin-inline:auto;
+    padding-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#atvHomeDivGeral h2 {
+    font-size: 65px;
+    color: var(--laranja);
+    font-family: 'Hanken Grotesk';
+}
+
+#atvHomeDiv2 {
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+    /* padding-inline: 5.3rem; */
+    max-width: 900px;
+    justify-content: end;
+    border: 1px solid green;
+}
+
+#atvHomeDiv2 #sub {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+#atvHomeDiv2 :last-child div {
+    display: flex;
+    flex-direction: column;
+}
+
+#atvHomeDiv2 button {
+    width: 210px;
+    border: none;
+    height: 59px;
+    font-size: 26px;
+    background-color: var(--laranja);
+    color: var(--azulescuro);
+    border-radius: 8px;
+    font-family: 'Baron Neue';
+}
+
+#txtImgDiv {
+    max-width: 1200px;
+    border: 1px solid red;
+}
+
+#txtImgDiv p {
+    font-size: 19px;
+    color: var(--branco);
+    letter-spacing: 1px;
+    max-width: 490px;
+    line-height: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Circe';
 }
