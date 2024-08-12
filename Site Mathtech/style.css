@@ -347,10 +347,9 @@ main {
 #divQuiz {
     max-width: 1330px;
     margin: 0 auto;
-    padding-top: 4.2rem;
     display: flex;
     align-items: start;
-    gap: 5rem;
+    gap: 4rem;
     border: 1px solid red;
 }
 
@@ -364,6 +363,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 7.2rem;
 }
 
 #textosQuiz p {
@@ -376,7 +376,6 @@ main {
     text-align: center;
     font-family: 'Circe';
     align-self: flex-start;
-    margin-top: 3rem;
 }
 
 #textosQuiz button {
@@ -388,7 +387,7 @@ main {
     font-size: 26px;
     color: var(--azulescuro);
     font-family: 'Baron Neue';
-    margin-top: 4.5px;
+    margin-top: 4.5rem;
 }
 
 #quemsomos {
