@@ -304,7 +304,7 @@ main {
 
 #textButton p {
     color: var(--branco);
-    font-size: 21.2px;
+    font-size: 20.3px;
     letter-spacing: 1px;
     max-width: 348px;
     line-height: 27px;
@@ -318,7 +318,6 @@ main {
     border: none;
     height: 65px;
     background-color: var(--laranja);
-    color: var(--azulescuro);
     border-radius: 8px;
 }
 
@@ -330,4 +329,68 @@ main {
 
 #imgLivros {
     margin-bottom: 7.7rem;
+}
+
+#sobreQuiz {
+    background-color: var(--azulescuro);
+}
+
+#sobreQuiz1 {
+    max-width: 1250px; 
+    padding-top: 4.2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divQuiz {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 4.2rem;
+    display: flex;
+    align-items: start;
+    gap: 5rem;
+    border: 1px solid red;
+}
+
+#sobreQuiz h2 {
+    font-size: 62px;
+    color: var(--laranja);
+    font-family: 'Hanken Grotesk';
+}
+
+#textosQuiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textosQuiz p {
+    color: var(--branco);
+    font-size: 19px;
+    letter-spacing: 1px;
+    max-width: 388px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Circe';
+    align-self: flex-start;
+    margin-top: 3rem;
+}
+
+#textosQuiz button {
+    width: 220px;
+    border: none;
+    height: 65px;
+    background-color: var(--laranja);
+    border-radius: 8px;
+    font-size: 26px;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
+    margin-top: 4.5px;
+}
+
+#quemsomos {
+    background-color: var(--laranjaclaro);
 }
