@@ -37,6 +37,7 @@ body {
 
 #containerGlobal {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
@@ -109,6 +110,7 @@ main {
     letter-spacing: 1.23px;
     line-height: 23px;
     font-family: 'Circe';
+    max-width: 520px;
 }
 
 #containerBoas #span1 {
@@ -206,51 +208,42 @@ main {
     font-family: 'Baron Neue';
 }
 
-#ativdadesHome {
+#aTv {
     background-color: var(--azulescuro);
 }
 
-#atvHomeDivGeral {
-    max-width: 1370px;
-    margin-inline:auto;
+#aTvDiv {
+    max-width: 1330px;
+    margin: 0 auto;
     padding-top: 4.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-#atvHomeDivGeral h2 {
-    font-size: 65px;
+#aTvDiv h2 {
+    font-size: 65.3px;
     color: var(--laranja);
     font-family: 'Hanken Grotesk';
 }
 
-#atvHomeDiv2 {
+#aTvDiv2 {
     display: flex;
-    gap: 5rem;
-    margin-top: 5rem;
-    /* padding-inline: 5.3rem; */
-    max-width: 900px;
-    justify-content: end;
-    border: 1px solid green;
+    gap: 6.2rem;
+    margin-top: 4.5rem;
 }
 
-#atvHomeDiv2 #sub {
+#aTvbutton {
     display: flex;
     flex-direction: column;
-    gap: 2.7rem;
+    gap: 2.8rem;
+    padding-top: 1.7rem;
 }
 
-#atvHomeDiv2 :last-child div {
-    display: flex;
-    flex-direction: column;
-}
-
-#atvHomeDiv2 button {
-    width: 210px;
+#aTvbutton button {
+    width: 178px;
     border: none;
-    height: 59px;
+    height: 56px;
     font-size: 26px;
     background-color: var(--laranja);
     color: var(--azulescuro);
@@ -258,12 +251,11 @@ main {
     font-family: 'Baron Neue';
 }
 
-#txtImgDiv {
-    max-width: 1200px;
-    border: 1px solid red;
+#aTvcontent img {
+    margin-left: 6.6rem;
 }
 
-#txtImgDiv p {
+#aTvcontent p {
     font-size: 19px;
     color: var(--branco);
     letter-spacing: 1px;
@@ -272,4 +264,70 @@ main {
     font-weight: 500;
     text-align: center;
     font-family: 'Circe';
+}
+
+#materialHome {
+    background-color: var(--azulclaro);
+}
+
+#materialHomeDivGeral {
+    max-width: 1330;
+    margin: 0 auto;
+    padding-top: 4.2rem;
+}
+
+#materialHomeDiv2 {
+    display: flex;
+    margin-top: 4.5rem;
+}
+
+#materialHomeDivGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#materialHomeDivGeral h2 {
+    font-size: 65.3px;
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+}
+
+#textButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.6rem;
+    margin-right: 5.8rem;
+    margin-left: 2rem;
+}
+
+#textButton p {
+    color: var(--branco);
+    font-size: 21.2px;
+    letter-spacing: 1px;
+    max-width: 348px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Circe';
+}
+
+#textButton button {
+    width: 230px;
+    border: none;
+    height: 65px;
+    background-color: var(--laranja);
+    color: var(--azulescuro);
+    border-radius: 8px;
+}
+
+#textButton button p {
+    font-size: 26px;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
+}
+
+#imgLivros {
+    margin-bottom: 7.7rem;
 }
