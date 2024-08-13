@@ -11,7 +11,7 @@
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
     --laranjaclaro: #FFF1D6;
-    --laranjaclaro: #FFF1D6;
+    --laranjaclaro2: #FFD67C;
     --branco: #fff;
 }
 
@@ -464,4 +464,52 @@ main {
     margin-right: 3rem;
     align-items: center;
     gap: 0.1rem;
+}
+
+#faleconosco {
+    background-color: var(--azulescuro);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem; */
+}
+
+#falediv {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#faleconoscoQuadro,
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#faleconoscoQuadro {
+    background-color: var(--laranjaclaro2);
+    max-width: 500px;
+}
+
+#faleconoscoQuadro h2 {
+    font-size: 46px;
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+}
+
+#inputs {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+#inputs input {
+    width: 370px;
+    padding: 5px;
 }
