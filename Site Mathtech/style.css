@@ -468,20 +468,16 @@ main {
 
 #faleconosco {
     background-color: var(--azulescuro);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem; */
+    height: 80vh;
 }
 
 #falediv {
     max-width: 1380px;
     margin: 0 auto;
     padding-top: 4rem;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 #faleconoscoQuadro,
@@ -492,13 +488,38 @@ main {
 
 #faleconoscoQuadro {
     background-color: var(--laranjaclaro2);
-    max-width: 500px;
+    border-radius: 15px;
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.3rem;
 }
 
 #faleconoscoQuadro h2 {
     font-size: 46px;
     color: var(--azulescuro);
     font-family: 'Hanken Grotesk';
+    margin-bottom: 0.8rem;
+    margin-top: 0.7rem;
+}
+
+#falediv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#falediv2 button {
+    width: 255px;
+    border: none;
+    height: 55px;
+    background-color: var(--laranjaclaro);
+    border-radius: 8px;
+    font-size: 26px;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
 }
 
 #inputs {
@@ -510,6 +531,23 @@ main {
 }
 
 #inputs input {
-    width: 370px;
+    width: 400px;
+    font-size: 17px;
+    padding: 6px 9px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Circe';
+}
+
+#inputs textarea {
+    width: 400px;
+    max-width: 400px;
+    max-height: 186px;
+    height: 186px;
     padding: 5px;
+    border: none;
+    font-size: 17px;
+    padding: 9px;
+    font-family: 'Circe';
+    border-radius: 5px;
 }
