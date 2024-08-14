@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="pg.css">
 </head>
+
 <body>
     <div id="containerGlobal">
         <header>
             <a href="../../index.html">
-                <img src="../../assets/mathtech.png" alt="imagem da logo" style="width: 180px; height: 170px;" id="logo">
+                <img src="../../assets/mathtech.png" alt="imagem da logo" style="width: 180px; height: 170px;"
+                    id="logo">
             </a>
             <section id="navegacao">
                 <nav>
@@ -22,7 +25,7 @@
                     <a href="">suporte</a>
                 </nav>
             </section>
-            
+
             <div id="icons">
                 <img src="../../assets/login.png" alt="imagem de icon de conta" style="width: 60px; height: 60px;">
                 <img src="../../assets/seta.png" alt="seta" style="width: 40px; height: 40px;">
@@ -30,10 +33,52 @@
         </header>
 
         <main>
-            <a href="../menu-material.html">
-                <img src="../../assets/sair seta (2).png" alt="seta de sair azul escuro">
-            </a>
+            <div id="intro">
+                <p>Progressão Geométrica (PG) é uma continuidade numérica em que a divisão de um termo com o seu
+                    anterior, exceto o primeiro, resultará em um único valor, a chamada razão (q), ou seja:</p>
+                <p class="azul">
+                    PG: (a1, a2, a3, a4, ..., an) , sendo q = (a2/a1 = a3/a2 = a4/a3,...)
+                </p>
+                <p>A multiplicação da própria razão (q) também define uma sequência numérica da progressão. Entenda nos
+                    exemplos:</p>
+                <span>PG: (5, 25, 125, 625, …)</span>
+                <p>
+                    Nesta progressão, o valor que determina seu consecutivo é o cinco, ou seja, a sequência é uma PG de
+                    razão igual a cinco (q = 5), pois 5 x 5 = 25; 25 x 5 = 125; 125 x 5 = 625 e assim sucessivamente.
+                    <br>
+                    Já na PG: (2,4,8,16,32,64, ...) a razão é 2 (q =2), pois 2 x 2 = 4; 4 x 2= 8; 8 x 2 =16 e assim
+                    consecutivamente. A razão de uma progressão geométrica é composta por
+                    valores constantes e racionais (positivos, negativos e frações), com exceção do zero. <br>
+                    Existe outro tipo de série numérica, a progressão aritmética. Nessa categoria, cada termo é dado
+                    pela soma do número anterior, resultando na razão (r). <br>
+                </p>
+            </div>
+            <div id="tipos">
+                <hr> <h2>TIPOS DE P.G</h2> <hr>
+                <p>As progressões geométricas são classificadas de acordo com o valor da razão. Elas se dividem em crescentes, decrescentes, oscilantes e permanentes.</p>
+                <h3>PG Crescente</h3>
+                <p>Nesse tipo de progressão geométrica a razão é maior que zero e feita por números crescentes:</p>
+                <span>(9, 27, 81, 243, 729...), no qual q = 3</span>
+                
+                <h3>PG Decrescente</h3>
+                <p>Na progressão decrescente a razão é maior ou diferente de zero, e os números da sequência serão menores que seus antecessores, ou seja, termos em forma decrescente:</p>
+                <span>PG: (- 6, -36,- 216, - 1296 ...) no qual q = 6</span>
+
+                <h3>PG Oscilante</h3>
+                <p>Na progressão geométrica constante a razão sempre será igual a 1. Portanto, a sequência terá o mesmo valor.</p>
+                <span>(6,6,6,6,6...) no qual q = 1</span>
+
+                <h3>PG Constante</h3>
+                <p>Nesse tipo de progressão geométrica a razão é maior que zero e feita por números crescentes:</p>
+                <span>(9, 27, 81, 243, 729...), no qual q = 3</span>
+
+                <h3>PG quase Nula</h3>
+                <p>Nessa progressão apenas um elemento da sequência será diferente de zero:</p>
+                <span>(9, 27, 81, 243, 729...), no qual q = 3</span>
+
+            </div>
         </main>
     </div>
 </body>
+
 </html>
