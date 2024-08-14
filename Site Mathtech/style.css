@@ -77,6 +77,11 @@ header {
     margin-right: 10px;
 }
 
+#navegacao nav > a:hover{
+    color: var(--laranja);
+    transition: 0.5s;
+}
+
 main {
     margin-top: 5.375rem;
 }

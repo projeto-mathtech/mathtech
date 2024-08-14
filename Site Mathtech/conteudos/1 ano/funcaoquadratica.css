@@ -76,3 +76,8 @@ header {
     align-items: center;
     margin-right: 10px;
 }
+
+#navegacao nav > a:hover{
+    color: var(--laranja);
+    transition: 0.5s;
+}

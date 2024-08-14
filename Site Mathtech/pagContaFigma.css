@@ -44,3 +44,8 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+#navegacao nav > a:hover{
+  color: var(--laranja);
+  transition: 0.5s;
+}
