@@ -10,7 +10,7 @@
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
-    --laranjaclaro: #FFF1D6;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
     --branco: #fff;
 }
@@ -65,4 +65,32 @@ header {
 #navegacao nav > a:hover{
     color: var(--laranja);
     transition: 0.5s;
+}
+
+body {
+    background-color: var(--laranjaclaro);
+}
+
+main {
+    margin-top: 100px;
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+}
+
+main nav {
+    background-color: var(--laranjamedio);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--azulescuro);
+}
+
+img {
+    width: 200px;
 }
