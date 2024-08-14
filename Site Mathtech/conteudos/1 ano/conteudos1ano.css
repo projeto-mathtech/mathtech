@@ -12,6 +12,7 @@
     --laranja: #F68F06;
     --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
+    --amarelo-claro: #FFF494;
     --branco: #fff;
 }
 
@@ -72,25 +73,50 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
     font-family: Hanken Grotesk;
+    font-size: 25px;
     font-weight: 800;
 }
 
+
+main img {
+    display: block;
+    width: 200px;
+}
+
+h1 {
+    color: var(--azulescuro);
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
 main nav {
-    background-color: var(--laranjamedio);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-main nav a {
-    padding: 10px;
-    text-decoration: none;
-    color: var(--azulescuro);
+#conteudos {
+    background-color: var(--laranjamedio);
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    width: fit-content;
 }
 
-img {
+#conteudos a {
     width: 200px;
+    margin: 20px;
+    background-color: var(--amarelo-claro);
+    border-radius: 10px;
+    padding: 30px;
+    text-decoration: none;
+    color: var(--azulescuro);
 }

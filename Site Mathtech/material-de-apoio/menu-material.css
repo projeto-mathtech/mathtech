@@ -67,6 +67,7 @@ main {
     color: var(--azulescuro);
     font-family: 'Hanken Grotesk';
     font-size: 41px;
+    font-weight: bolder;
 }
 
 #navegacao nav {

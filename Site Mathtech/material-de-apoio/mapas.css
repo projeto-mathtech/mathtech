@@ -17,27 +17,57 @@
 
 @font-face {
     font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    src: url('../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
 }
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../fontes/circe-cufonfonts/CRC55.otf');
+    src: url('../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
+    src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
+    background-color: var(--laranjaclaro2);
+    height: 100vh;
+}
+
+header {
+    background-color: var(--laranja);
+    max-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+main {
+    margin-top: 5.375rem;
+}
+
+#divmain {
+    display: flex;
+    align-items: center;
+}
+
+#divmain h1 {
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+    font-size: 41px;
+    font-weight: bolder;
 }
 
 header {
@@ -75,4 +105,23 @@ header {
 #navegacao nav > a:hover{
     color: var(--laranja);
     transition: 0.5s;
+}
+
+h1{
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+div{
+    background-color: var(--laranjaclaro);
+}
+
+div a {
+    font-size: 16px;
+    text-decoration: none;
+    margin-inline: 1.2rem;
+    color: var(--azulescuro);
+    font-family: 'Baron Neue';
 }
