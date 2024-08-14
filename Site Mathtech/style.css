@@ -158,6 +158,7 @@ main {
 
 #sobreConteudo {
     background-color: var(--laranjaclaro);
+    padding-bottom: 40px;
 }
 
 #divCont {
@@ -476,7 +477,7 @@ main {
 
 #faleconosco {
     background-color: var(--azulescuro);
-    height: 100vh;
+    height: 85vh;
 }
 
 #falediv {

@@ -125,3 +125,25 @@ div a {
     color: var(--azulescuro);
     font-family: 'Baron Neue';
 }
+
+section{
+    background: var(--laranja);
+    border-radius: 35px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
