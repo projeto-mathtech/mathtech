@@ -10,6 +10,7 @@
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
@@ -132,6 +133,10 @@ p{
     padding-inline: 40px;
 }
 
+strong {
+    color: var(--azulescuro);
+}
+
 #intro{
     display: flex;
     flex-direction: row;
@@ -143,4 +148,62 @@ p{
     max-width: 1000px;
     max-height: 1000px;
     padding: 30px;
+}
+
+#apoio {
+    background-color: var(--laranjamedio);
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 10px;
+    width: 1000px;
+    font-family: Circe;
+}
+
+#apoio h3 {
+    color: var(--azulclaro);
+    font-size: 30px;
+    max-height: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#apoio p {
+    font-family: Circe;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+#apoio a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 30px;
+    font-family: 'Baron Neue';
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    height: 200;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#laranja {
+    color: var(--azulescuro);
+    background-color: var(--laranja);
+}
+
+#azul {
+    color: var(--laranja);
+    background-color: var(--azulescuro);
+}
+
+#apoio p {
+    margin-bottom: 10px;
 }

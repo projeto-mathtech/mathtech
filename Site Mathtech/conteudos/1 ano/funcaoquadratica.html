@@ -42,7 +42,7 @@
                     <img src="../../../imagens mathtech/icon-sun.png" alt="">
                 </button>
             </div>
-    <hr>
+            <hr>
 
             <div id="intro">
                 <p>
@@ -56,7 +56,8 @@
                     <br> <br>No
                     estudo algébrico, está determinado que o grau da equação é igual ao número de raízes (valores) que
                     podem ser encontradas para essa expressão. Lembre-se que uma raiz é o valor que, ao ser substituído
-                    na equação, faz com que o resultado da conta seja 0</p>
+                    na equação, faz com que o resultado da conta seja 0
+                </p>
                 <img src="../../assets/imagens-conteudos/funcao-quadratica/funcao-quadratica-exemplo.png"
                     alt="imagem de gráfico de função quadrática">
             </div>
@@ -69,17 +70,18 @@
                     conhecida, é a fórmula de Bháskara. Outro modo seria utilizar a fórmula de soma e produto. Veja, a
                     seguir, como elas funcionam, com exemplos.</p>
                 <h3>Fórmula de Bhaskara</h3>
-                <img src="../../assets/imagens-conteudos/funcao-quadratica/formula-bhaskara.png"
-                    alt="formula de bhaskara">
-                <p>Em que: <strong>ax² + bx +c = 0
-                        Exemplo: 4x² + 2x + 8 = 0
-                        a=4 | b= 2 | c=8</strong></p>
-
+                <div id="bhaskara">
+                    <img src="../../assets/imagens-conteudos/funcao-quadratica/formula-bhaskara.png"
+                        alt="formula de bhaskara">
+                    <p>Em que: <strong>ax² + bx +c = 0
+                            Exemplo: 4x² + 2x + 8 = 0
+                            a=4 | b= 2 | c=8</strong></p>
+                </div>
                 <p>Exemplo: Quais são as raízes da equação do segundo grau <strong>x2 + 8x – 9 = 0? </strong> Nessa
                     equação, a = 1, b = 8, c = – 9 e Δ = 100. Substituindo esses valores na fórmula de Bhaskara,
                     obtemos:</p>
 
-                <p>x = – b ± √Δ/2a <br>
+                <p class="resolucao">x = – b ± √Δ/2a <br>
                     x = – 8 ± √100/ 2·1 <br>
                     x = – 8 ± 10/2 <br>
                     x¹' = – 8 + 10/ <br>
@@ -94,12 +96,19 @@
                 <h3>Soma e produto</h3>
                 <p>A fórmula para soma e produto é mais simples, mas é necessário desenvolver um sistema de equações
                     para chegar às raízes.</p>
-                <p>x1+ x2 = -b/a <br>
+                <p class="resolucao">x1+ x2 = -b/a <br>
                     x1.x2 = c/a</p>
 
                 <p>Com a mesma função do exemplo acima(x2+ 3x – 10), vamos explorar esse segundo método:</p>
-                <p>
-
+                <p class="resolucao">
+                    f(x) = x2+ 3x – 10  <br>
+                    a = 1 b = 3c = -10 <br>
+                    x1+ x2 = -b/ax1+ x2 = -3/1 <br>
+                    (equação I) <br>
+                    x1+ x2 = -3  <br>
+                    x1.x2 = c/ax1.x2 = -10/1 <br>
+                    (equação II) <br>
+                    x1.x2 = -10 <br>
                 </p>
                 <p>Uma das melhores maneiras de desenvolver o método de soma e produto é por tentativa e erro. Primeiro,
                     observe a soma apresentada e pense em valores que podem ser multiplicados para chegar a esse
@@ -108,9 +117,9 @@
                 <hr>
                 <h2>GRÁFICO</h2>
                 <hr>
-                O gráfico de uma função quadrática é sempre uma parábola. A diferença está em outros fatores, por
+                <p>O gráfico de uma função quadrática é sempre uma parábola. A diferença está em outros fatores, por
                 exemplo, se a boca está virada para cima ou para baixo, se o vértice representa um ponto mínimo ou
-                máximo, entre outras características.
+                máximo, entre outras características. </p>
                 <div id="graficoUm">
                     <img src="../../assets/imagens-conteudos/funcao-quadratica/coeficiente-maior-que-zero.png"
                         alt="grafico crescente">
@@ -120,7 +129,8 @@
                 <div id="graficoDois">
                     <img src="../../assets/imagens-conteudos/funcao-quadratica/coeficiente-menor-que-zero.png"
                         alt="grafico decrescente">
-                    <p>Por outro lado, quando o coeficiente a<0, sua concavidade é para baixo.</p </div>
+                    <p>Por outro lado, quando o coeficiente a<0 sua concavidade é para baixo.</p> 
+                </div>
 
                             <p>Outro fator importante é o discriminante da fórmula de Bháskara. Representa todo o
                                 cálculo que fica dentro da raiz quadrada (b² – 4.a.c). Ele também pode ser chamado de
@@ -140,29 +150,40 @@
                             <p>Outro ponto importante da parábola é o vértice, ponto que divide os “dois bracinhos” do
                                 desenho. Para as parábolas que estão côncavas para baixo, é o ponto máximo. Para os
                                 desenhos voltados para cima, é o local de valor mínimo. Para encontrar esses valores,
-                                utilizam-se as fórmulas:</p>
+                                utilizam-se as fórmulas:
+                            </p>
+                            <p class="resolucao">
+                                xv = -b/2a <br>
+                                yv = -Δ/4a
+                            </p>
                 </div>
 
                 <div id="apoio">
                     <h3>Para melhorar seus estudos...</h3>
                     <p>Matemática pode ser um conteúdo difícil. Para aumentar seu aprendizado, acesse ao mapa mental e a
                         playlist de vídeo aulas sobre este assunto:</p>
-
-                    <a href="#">
-                        Mapa mental
-                    </a>
-
-                    <a href="#">
-                        playlist de videoaulas
-                    </a>
+                    
+                    <div id="a">
+                        <a href="#" id="laranja">
+                            Mapa <br>mental
+                        </a>
+    
+                        <a href="#" id="azul">
+                            playlist de <br> videoaulas
+                        </a>
+                    </div>
                 </div>
-                <a href="">
-                    EXERCÍCIOS
+                </div>
+
+                <div id="botoes">
+                <a href="" id="botaoExercicios">
+                    exercícios
                 </a>
 
-                <a href="">
-                    PRÓXIMO
+                <a href="" id="botaoProximo">
+                    próximo
                 </a>
+            </div>
         </main>
     </div>
 </body>

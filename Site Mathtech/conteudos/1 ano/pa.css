@@ -17,22 +17,22 @@
 
 @font-face {
     font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
 }
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../fontes/circe-cufonfonts/CRC55.otf');
+    src: url('../../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
+    src: url('../../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
 body {
@@ -80,4 +80,103 @@ header {
 #navegacao nav > a:hover{
     color: var(--laranja);
     transition: 0.5s;
+}
+#headerDois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headerDois button{
+    background: none;
+    border: none;
+    max-width: 150px;
+}
+
+#headerDois button img{
+    max-width: 100px;
+}
+
+main {
+    margin-top: 5.375rem;
+    padding-inline: 50px;
+}
+
+main a img{
+    max-width: 170px;
+}
+
+#headerDois h1{
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+    font-size: 41px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+hr{
+    border: 0; 
+    height: 2px; 
+    background-color: var(--azulescuro);
+    border-top: 2px dashed var(--azulescuro);
+}
+
+body{
+    background: var(--laranjaclaro);
+}
+
+h2{
+    font-family: Hanken Grotesk;
+
+}
+
+p{
+    font-family: Circe;
+    font-size: 20px;
+    padding-inline: 40px;
+    margin: 20px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro img{
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 30px;
+}
+
+span{
+    font-size: 20px;
+    font-family: 'Circe';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: var(--azulescuro);
+    margin-block: 15px;
+    font-size: 40px;
+}
+
+h3{
+    color: var(--azulclaro);
+    font-family: Circe;
+    font-size: 20px;
+}
+
+#somaPa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 120px;
+}
+
+#somaPa p{
+    margin-left: 10px;
 }
