@@ -23,17 +23,17 @@
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+    src: url('../../../fontes/baron_neue/Baron Neue Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+    src: url('../../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+    src: url('../../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
 html {
@@ -108,6 +108,10 @@ main a img{
     max-width: 170px;
 }
 
+h1 {
+    font-family: 'Hanken Grotesk';
+}
+
 #headerDois h1{
     color: var(--azulescuro);
     font-family: 'Hanken Grotesk';
@@ -127,8 +131,22 @@ body{
     background: var(--laranjaclaro);
 }
 
+h2{
+    color: var(--azulescuro);
+    margin-block: 15px;
+    font-family: Hanken Grotesk;
+    font-size: 40px;
+}
+
+h3{
+    color: var(--azulclaro);
+    font-family: Circe;
+    font-size: 20px;
+}
+
+
 p{
-    font-family: CRC55;
+    font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
 }
@@ -156,7 +174,7 @@ strong {
     margin: 20px 150px;
     border-radius: 10px;
     width: 1000px;
-    font-family: Circe;
+    font-family: 'Circe';
 }
 
 #apoio h3 {
@@ -170,7 +188,7 @@ strong {
 }
 
 #apoio p {
-    font-family: Circe;
+    font-family: 'Circe';
     margin-bottom: 10px;
     margin-left: -20px;
 }
@@ -206,4 +224,14 @@ strong {
 
 #apoio p {
     margin-bottom: 10px;
+}
+
+.resolucao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--azulclaro);
+    font-family: Circe;
+    font-size: 20px;
+    text-align: center;
 }

@@ -73,6 +73,12 @@ header {
     transition: 0.5s;
 }
 
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 body {
     background-color: var(--laranjaclaro);
 }
