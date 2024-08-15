@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    src: url('../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
 }
 
 @font-face {
