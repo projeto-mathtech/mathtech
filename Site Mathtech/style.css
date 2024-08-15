@@ -115,6 +115,7 @@ main {
     color: var(--branco);
     margin-bottom: 2.8rem;
     font-family: 'Hanken Grotesk';
+    font-size: 37px;
 }
 
 #textoBoas p {
