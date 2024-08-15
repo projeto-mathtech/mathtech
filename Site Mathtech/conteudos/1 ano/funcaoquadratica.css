@@ -35,6 +35,10 @@
     src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(245, 245, 245);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
@@ -80,4 +84,23 @@ header {
 #navegacao nav > a:hover{
     color: var(--laranja);
     transition: 0.5s;
+}
+
+main {
+    margin-top: 5.375rem;
+}
+
+h1{
+    color: var(--azulescuro);
+    font-family: 'Hanken Grotesk';
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+body{
+    background: var(--laranjaclaro);
+}
+
+p{
+    font-family: CRC55;
 }

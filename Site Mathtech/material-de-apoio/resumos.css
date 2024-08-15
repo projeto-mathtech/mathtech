@@ -10,8 +10,9 @@
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
-    --laranjaclaro2: #FFD67C;
+    --amarelo-claro: #FFF494;
     --branco: #fff;
 }
 
@@ -28,16 +29,6 @@
 @font-face {
     font-family: Circe;
     src: url('../fontes/circe-cufonfonts/CRC55.otf');
-}
-
-@font-face {
-    font-family: Lemon Milk;
-    src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
-}
-
-#containerGlobal {
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 header {
@@ -75,4 +66,77 @@ header {
 #navegacao nav > a:hover{
     color: var(--laranja);
     transition: 0.5s;
+}
+
+body {
+    background-color: var(--laranjaclaro);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Hanken Grotesk;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+main img {
+    margin-right: 1200px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-top: -130px;
+    color: var(--azulescuro);
+    margin-bottom: 70px;
+    font-size: 58px;
+}
+
+main nav {
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#conteudos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--azulescuro);
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 50px;
+    width: 1300px;
+}
+
+#conteudos a {
+    background-color: var(--branco);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#primeiroAno a {
+    color: var(--azulzinho);
+}
+#segundoAno a {
+    color: var(--azulclaro);
+}
+#terceiroAno a {
+    color: var(--azulescuro);
 }

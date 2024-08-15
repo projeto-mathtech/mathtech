@@ -67,3 +67,98 @@ header {
     transition: 0.5s;
 }
 
+/* Configurações globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF2CC;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    color: #004586;
+    text-align: center;
+}
+
+h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #003366;
+}
+
+hr {
+    border: 1px solid #003366;
+    margin: 20px 0;
+}
+
+#intro, #resolucao, #grafico {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#intro img, #resolucao img, #grafico img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#apoio {
+    background-color: #FFE599;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#apoio h3 {
+    color: #004586;
+}
+
+#apoio a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #F9B233;
+    color: #004586;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#apoio p {
+    margin-bottom: 10px;
+}
+
+main a {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px 0;
+    background-color: #F9B233;
+    color: #004586;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main a:hover {
+    background-color: #E08E21;
+}
+
+#containerGlobal {
+    width: 70%;
+    margin: 0 auto;
+}
