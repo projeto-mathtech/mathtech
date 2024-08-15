@@ -110,7 +110,7 @@ hr {
     display: block;
     margin: 10px auto;
     max-width: 100%;
-    height: auto;
+ 
 }
 
 #apoio {
@@ -118,6 +118,7 @@ hr {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
+    align-items: center;
 }
 
 #apoio h3 {
@@ -133,6 +134,7 @@ hr {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    justify-content: center;
 }
 
 #apoio p {
@@ -149,7 +151,7 @@ main a {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    width: 40%;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,6 +161,6 @@ main a:hover {
 }
 
 #containerGlobal {
-    width: 70%;
+    max-width: 70%;
     margin: 0 auto;
 }

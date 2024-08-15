@@ -63,10 +63,14 @@ main {
     align-items: center;
 }
 
+#divmain a {
+    margin-right: 27rem;
+}
+
 #divmain h1 {
     color: var(--azulescuro);
     font-family: 'Hanken Grotesk';
-    font-size: 41px;
+    font-size: 46px;
     font-weight: bolder;
 }
 

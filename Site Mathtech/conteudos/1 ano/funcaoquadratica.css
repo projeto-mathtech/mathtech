@@ -86,15 +86,39 @@ header {
     transition: 0.5s;
 }
 
+#headerDois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headerDois button{
+    background: none;
+    border: none;
+    max-width: 170px;
+}
+
 main {
     margin-top: 5.375rem;
 }
 
-h1{
+main a img{
+    max-width: 170px;
+}
+
+#headerDois h1{
     color: var(--azulescuro);
     font-family: 'Hanken Grotesk';
     font-size: 41px;
     font-weight: bolder;
+    margin-top: 80px;
+}
+
+hr{
+    border: 0; 
+    height: 2px; 
+    background-color: var(--azulescuro);
+    border-top: 2px dashed var(--azulescuro);
 }
 
 body{
@@ -103,4 +127,18 @@ body{
 
 p{
     font-family: CRC55;
+    font-size: ;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro img{
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 30px;
 }

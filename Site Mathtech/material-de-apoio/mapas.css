@@ -10,64 +10,25 @@
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
-    --laranjaclaro2: #FFD67C;
+    --amarelo-claro: #FFF494;
     --branco: #fff;
 }
 
 @font-face {
     font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    src: url('../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
 }
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../../fontes/circe-cufonfonts/CRC55.otf');
-}
-
-@font-face {
-    font-family: Lemon Milk;
-    src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
-}
-
-#containerGlobal {
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: var(--laranjaclaro2);
-    height: 100vh;
-}
-
-header {
-    background-color: var(--laranja);
-    max-height: 86px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-inline: 1.5rem;
-    position: fixed;
-    top: 0;
-    width: 1440px;
-}
-
-main {
-    margin-top: 5.375rem;
-}
-
-#divmain {
-    display: flex;
-    align-items: center;
-}
-
-#divmain h1 {
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 41px;
-    font-weight: bolder;
+    src: url('../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 header {
@@ -107,43 +68,76 @@ header {
     transition: 0.5s;
 }
 
-h1{
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 41px;
-    font-weight: bolder;
-}
-
-div{
-    background-color: var(--laranjaclaro);
-}
-
-div a {
-    font-size: 16px;
-    text-decoration: none;
-    margin-inline: 1.2rem;
-    color: var(--azulescuro);
-    font-family: 'Baron Neue';
-}
-
-section{
-    background: var(--laranja);
-    border-radius: 35px;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--laranjamedio);
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Hanken Grotesk;
+    font-size: 25px;
+    font-weight: 800;
 }
 
-#conteudos{
-    background: var(--laranja);
-    border-radius: 35px;
+
+main img {
+    margin-right: 1200px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-top: -130px;
+    color: var(--azulescuro);
+    margin-bottom: 50px;
+    font-size: 58px;
+}
+
+main nav {
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#conteudos {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--laranja);
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#conteudos a {
+    background-color: var(--branco);
+    padding: 10px;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.primeiroAno {
+    color: var(--azulzinho);
+}
+.segundoAno  {
+    color: var(--azulclaro);
+}
+.terceiroAno {
+    color: var(--azulescuro);
 }
