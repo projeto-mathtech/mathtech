@@ -106,6 +106,7 @@ header {
 main {
     margin-top: 5.375rem;
     padding-inline: 50px;
+    background-color: var(--laranjaclaro);
 }
 
 main a img{

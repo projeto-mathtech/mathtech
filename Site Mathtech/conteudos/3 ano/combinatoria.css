@@ -81,3 +81,9 @@ header {
     color: var(--laranja);
     transition: 0.5s;
 }
+
+main {
+    margin-top: 5.375rem;
+    padding-inline: 50px;
+    background-color: var(--laranjaclaro);
+}

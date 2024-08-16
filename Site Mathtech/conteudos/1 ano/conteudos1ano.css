@@ -91,6 +91,7 @@ main {
     font-family: 'Hanken Grotesk';
     font-size: 25px;
     font-weight: 800;
+    background-color: var(--laranjaclaro);
 }
 
 
