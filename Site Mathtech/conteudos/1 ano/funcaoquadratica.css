@@ -132,12 +132,12 @@ body{
 }
 
 h2{
-    font-family: Hanken Grotesk;
+    font-family: 'Hanken Grotesk';
 
 }
 
 p{
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
@@ -183,7 +183,7 @@ h2{
 
 h3{
     color: var(--azulclaro);
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
 }
 
@@ -192,7 +192,7 @@ h3{
     justify-content: center;
     align-items: center;
     color: var(--azulclaro);
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
     text-align: center;
 }
@@ -203,7 +203,7 @@ h3{
     margin: 20px 150px;
     border-radius: 10px;
     width: 1000px;
-    font-family: Circe;
+    font-family: 'Circe';
 }
 
 #apoio h3 {
@@ -217,7 +217,7 @@ h3{
 }
 
 #apoio p {
-    font-family: Circe;
+    font-family: 'Circe';
     margin-bottom: 10px;
     margin-left: -20px;
 }
@@ -280,7 +280,7 @@ h3{
 }
 
 ul{
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
 }
 
@@ -303,7 +303,7 @@ ul{
     width: 320px;
     color: var(--laranja);
     text-decoration: none;
-    font-family: Baron Neue;
+    font-family: 'Baron Neue';
     font-size: 40px;
 }
 
@@ -318,6 +318,6 @@ ul{
     width: 320px;
     color: var(--azulescuro);
     text-decoration: none;
-    font-family: Baron Neue;
+    font-family: 'Baron Neue';
     font-size: 40px;
 }

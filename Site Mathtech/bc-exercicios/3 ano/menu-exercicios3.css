@@ -78,7 +78,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: Hanken Grotesk;
+    font-family: 'Hanken Grotesk';
     font-size: 25px;
     font-weight: 800;
 }

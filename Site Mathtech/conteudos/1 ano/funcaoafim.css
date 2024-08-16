@@ -134,13 +134,13 @@ body{
 h2{
     color: var(--azulescuro);
     margin-block: 15px;
-    font-family: Hanken Grotesk;
+    font-family: 'Hanken Grotesk';
     font-size: 40px;
 }
 
 h3{
     color: var(--azulclaro);
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
 }
 
@@ -231,7 +231,7 @@ strong {
     justify-content: center;
     align-items: center;
     color: var(--azulclaro);
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
     text-align: center;
 }

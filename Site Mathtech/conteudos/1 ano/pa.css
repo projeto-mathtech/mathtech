@@ -126,12 +126,12 @@ body{
 }
 
 h2{
-    font-family: Hanken Grotesk;
+    font-family: 'Hanken Grotesk';
 
 }
 
 p{
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
@@ -166,7 +166,7 @@ h2{
 
 h3{
     color: var(--azulclaro);
-    font-family: Circe;
+    font-family: 'Circe';
     font-size: 20px;
 }
 
