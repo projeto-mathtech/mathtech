@@ -35,15 +35,15 @@
         <main>
             <div id="headerDois">
                 <a href="./conteudos1ano.html">
-                    <img src="../../assets/sair seta (2).png" alt="seta de voltar" style="max-width: 170px;">
+                    <img src="../../assets/sair seta.png" alt="seta de voltar" style="max-width: 170px;">
                 </a>
-    
+
                 <h1>MATEMÁTICA FINANCEIRA</h1>
-                <hr>
                 <button>
-                    <img src="../../../imagens mathtech/icon-moon.png" alt="">
+                    <img src="../../../imagens mathtech/icon-sun.png" alt="">
                 </button>
             </div>
+            <hr class="hrHeader">
 
             <div id="intro">
                 <p>
@@ -53,7 +53,8 @@
                     aplicações financeiras, empréstimos, renegociação de dívidas, ou mesmo,
                     tarefas simples, como calcular o valor de desconto num determinado pro-
                     duto.</p>
-                <img src="../../assets/imagens-conteudos/.png" alt="imagem de matematica financeira">
+                <img src="../../assets/imagens-conteudos/matematica-financeira/matematica-financeira-definicao.png"
+                    alt="imagem de matematica financeira">
             </div>
 
             <div id="formula">
@@ -85,10 +86,13 @@
                     simples é calculada em um intervalo de tempo. Podemos calcular o juros simples de determinado
                     capital C, aplicado à determinada taxa a regime de juros simples (i), em um determinado período de
                     tempo t, pela fórmula:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-1.png" alt="">
+                <p class="resolucoes">J = C · i · t</p>
                 <p>O valor pago ao final dessa aplicação deve ser dado pelo dinheiro aplicado mais o valor do juros e
                     recebe o nome de montante (M). O montante é dado pela expressão:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-2.png" alt="">
+                <p class="resolucoes">M = C + J <br>
+                    M = C + C · i · t <br>
+                    M = C (1 + it) <br>
+                </p>
                 <p>A única preocupação que devemos ter em relação a problemas envolvendo juros simples é com as unidades
                     de medida de taxa e tempo, elas devem sempre estar em unidades iguais.</p>
 
@@ -108,11 +112,19 @@
                     <br>
                     Sabemos que a taxa é de 20% ao ano, como um ano tem 12 meses, logo, a taxa mensal será de:
                 </p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-3.png" alt="">
+                <p class="resolucoes">
+                    20% : 12 <br>
+                    1,66% ao mês <br>
+                    0,016 ao mês</p>
                 <p>Substituindo esses dados na fórmula, temos que:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-4.png" alt="">
+                <p class="resolucoes">J = C · i · t <br>
+                    J = 6000 · 0,016 · 6 <br>
+                    J = 96 · 6 <br>
+                    J = 576 reais <br>
+                </p>
                 <p>Portanto, o valor a ser retirado no fim dos seis meses é de 576 reais, e o montante é de:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-5.png" alt="">
+                <p class="resoulucoes"> M = 6000 + 576 <br>
+                    M = 6576 reais</p>
             </div>
 
             <div id="jurosCompostos">
@@ -125,7 +137,9 @@
                     como a taxa é calculada. No juros composto, a taxa de juros é sempre calculada em cima do capital do
                     mês anterior, isso faz com que o juros aumente de maneira exponencial seu valor. A fórmula para
                     calcular-se o juros no sistema de amortização de juros compostos é dada por:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-6.png" alt="">
+                <p class="resolucoes">
+                    M = C · (1 + i)t
+                </p>
                 <p>Em que M é o montante acumulado, C é o valor do capital inicial, i é a taxa de juros dada em
                     porcentagem, e t é o período no qual o capital ficou aplicado no sistema. Da mesma forma que no
                     juros simples, no sistema de juros compostos, a taxa e o tempo devem ficar na mesma unidade.</p>
@@ -135,9 +149,15 @@
                     <br> (Dado: 1,20,5 ≈ 1,095)
                     <br>Observe que os dados são os mesmos do exemplo 4, logo, temos que:
                 </p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-7.png" alt="">
+                <p class="resolucoes">C = 6000 <br>
+                    i = 0,2 a.a <br>
+                    t = 0,5 anos
+                </p>
                 <p>Substituindo os dados na fórmula de juros compostos, temos que:</p>
-                <img src="../../assets/imagens-conteudos/resolucoes/matematica-financeira-8.png" alt="">
+                <p class="resolucoes">M = 6000 · (1 + 0,2)0,5 <br>
+                    M = 6000 · (1,2)0,5 <br>
+                    M = 6000 · 1,095 <br>
+                    M = 6572,67 reais</p>
                 <p>Portanto, o montante a ser retirado por Marta no sistema de juros simples é de 6572, 67 reais. Veja
                     que o montante no sistema de juros compostos é maior que no de juros simples, e isso ocorre em todos
                     os casos.</p>
@@ -147,26 +167,31 @@
                 <h3>Para melhorar seus estudos...</h3>
                 <p>Matemática pode ser um conteúdo difícil. Para aumentar seu aprendizado, acesse ao mapa mental e a
                     playlist de vídeo aulas sobre este assunto:</p>
-    
-                <a href="#">
-                    Mapa mental
-                </a>
-    
-                <a href="#">
-                    playlist de videoaulas
-                </a>
+
+                <div id="a">
+                    <a href="#" id="laranja">
+                        Mapa <br>mental
+                    </a>
+
+                    <a href="#" id="azul">
+                        playlist de <br> videoaulas
+                    </a>
+                </div>
             </div>
-            <a href="">
-                EXERCÍCIOS
-            </a>
-    
-            <a href="">
-                PRÓXIMO
-            </a>
-        </div>
-    </body>
-        </main>
     </div>
+
+    <div id="botoes">
+        <a href="" id="botaoExercicios">
+            exercícios
+        </a>
+
+        <a href="" id="botaoProximo">
+            próximo
+        </a>
+    </div>
+    </div>
+</main>
+</div>
 </body>
 
 </html>

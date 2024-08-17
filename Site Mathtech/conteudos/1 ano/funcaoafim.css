@@ -119,6 +119,12 @@ main a img{
     margin-bottom: 40px;
 }
 
+.hrHeader{
+    border: 3.5px solid var(--laranja);
+    background: var(--laranja);
+    color: var(--laranja);
+}
+
 hr{
     border: 0; 
     height: 2px; 
