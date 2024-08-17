@@ -42,13 +42,14 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background: var(--laranjaclaro);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
+    background: var(--laranjaclaro);
 }
 
 header {
@@ -123,15 +124,17 @@ main a img{
     margin-bottom: 40px;
 }
 
+#hrHeader{
+    border: 3.5px solid var(--laranja);
+    background: var(--laranja);
+    color: var(--laranja);
+}
+
 hr{
     border: 0; 
     height: 2px; 
     background-color: var(--azulescuro);
-    border-top: 2px dashed var(--azulescuro);
-}
-
-body{
-    background: var(--laranjaclaro);
+    border-top: 2px var(--azulescuro);
 }
 
 h2{
@@ -144,4 +147,141 @@ p{
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro img{
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 30px;}
+
+span{
+    font-size: 20px;
+    font-family: 'Circe';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: var(--azulescuro);
+    margin-block: 15px;
+    font-size: 40px;
+}
+h3{
+    color: var(--azulclaro);
+    font-family: 'Circe';
+    font-size: 20px;
+}
+
+.imgCenter{
+    size: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-block: 20px;
+    padding-bottom: 30px;
+}
+
+#apoio {
+    background-color: var(--laranjamedio);
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 10px;
+    width: 1000px;
+    font-family: 'Circe';
+}
+
+#apoio h3 {
+    color: var(--azulclaro);
+    font-size: 30px;
+    max-height: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#apoio p {
+    font-family: 'Circe';
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+#apoio a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 30px;
+    font-family: 'Baron Neue';
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    height: 200;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#laranja {
+    color: var(--azulescuro);
+    background-color: var(--laranja);
+}
+
+#azul {
+    color: var(--laranja);
+    background-color: var(--azulescuro);
+}
+
+#apoio p {
+    margin-bottom: 10px;
+}
+
+#botoes{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#botaoExercicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azulescuro);
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 350px;
+    width: 320px;
+    color: var(--laranja);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
+}
+
+#botaoProximo{
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--laranja);
+    height: 70px;
+    border-radius: 15px;
+    width: 320px;
+    color: var(--azulescuro);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
 }
