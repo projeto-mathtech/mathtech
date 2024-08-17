@@ -6,6 +6,7 @@
 }
 
 :root {
+    --azul-h1: #004AAD;
     --azulescuro: #0B3D80;
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
@@ -41,13 +42,14 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background: var(--laranjaclaro);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
+    background: var(--laranjaclaro);
 }
 
 header {
@@ -114,11 +116,12 @@ main a img{
 }
 
 #headerDois h1{
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 41px;
+    font-family: Lemon Milk;
+    font-size: 72px;
+    color: var(--azul-h1);
     font-weight: bolder;
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 hr{
@@ -126,10 +129,6 @@ hr{
     height: 2px; 
     background-color: var(--azulescuro);
     border-top: 2px dashed var(--azulescuro);
-}
-
-body{
-    background: var(--laranjaclaro);
 }
 
 h2{
@@ -154,8 +153,7 @@ p{
 #intro img{
     max-width: 1000px;
     max-height: 1000px;
-    padding: 30px;
-}
+    padding: 30px;}
 
 span{
     font-size: 20px;
@@ -188,7 +186,7 @@ h3{
     font-size: 20px;
 }
 
-.resolucao{
+.resolucoes{
     display: flex;
     justify-content: center;
     align-items: center;

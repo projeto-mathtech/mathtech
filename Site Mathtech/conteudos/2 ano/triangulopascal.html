@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="triangulopascal.css">
 </head>
+
 <body>
     <div id="containerGlobal">
         <header>
             <a href="../../index.html">
-                <img src="../../assets/mathtech.png" alt="imagem da logo" style="width: 180px; height: 170px;" id="logo">
+                <img src="../../assets/mathtech.png" alt="imagem da logo" style="width: 180px; height: 170px;"
+                    id="logo">
             </a>
             <section id="navegacao">
                 <nav>
@@ -22,7 +25,7 @@
                     <a href="../../index.html#faleconosco">suporte</a>
                 </nav>
             </section>
-            
+
             <div id="icons">
                 <img src="../../assets/login.png" alt="imagem de icon de conta" style="width: 60px; height: 60px;">
                 <img src="../../assets/seta.png" alt="seta" style="width: 40px; height: 40px;">
@@ -30,34 +33,49 @@
         </header>
 
         <main>
-            <a href="./conteudos2ano.html">
-                <img src="../../assets/sair seta (2).png" alt="seta de voltar">
-            </a>
+            <div id="headerDois">
+                <a href="./conteudos2ano.html">
+                    <img src="../../assets/sair seta (2).png" alt="seta de voltar">
+                </a>
 
-            <h1>TRIÂNGULO DE PASCAL</h1>
-            <hr>
+                <h1>TRIÂNGULO DE PASCAL</h1>
+                <hr>
 
+                <button>
+                    <img src="../../../imagens mathtech/icon-sun.png" alt="">
+                </button>
+            </div>
             <div id="intro">
-                <p>Uma propriedade importante do binômio de Newton é a sua relação com o triângulo de Pascal. Os coeficientes dos termos do binômio de Newton são iguais aos números encontrados nas linhas do triângulo.
+                <p>Uma propriedade importante do binômio de Newton é a sua relação com o triângulo de Pascal. Os
+                    coeficientes dos termos do binômio de Newton são iguais aos números encontrados nas linhas do
+                    triângulo.
                 </p>
 
-                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/triangulo-de-pascal-definicao.png" alt="triângulo de pascal definição">
+                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/triangulo-de-pascal-definicao.png"
+                    alt="triângulo de pascal definição">
 
-                <p>Com o triângulo de Pascal, torna-se desnecessário realizar o cálculo das combinações que acompanham cada um dos termos. 
-                    <br>Por exemplo, se o binômio for elevado a quatro, os coeficientes serão os números que aparecem na linha quatro do triângulo de Pascal.
-                    <br>É importante lembrar também que, no triângulo de Pascal, começamos a contar as linhas e as colunas a partir da linha 0 e da coluna 0. Utilizando o triângulo de Pascal, calcularemos o seguinte binômio de Newton:
-                    
+                <p>Com o triângulo de Pascal, torna-se desnecessário realizar o cálculo das combinações que acompanham
+                    cada um dos termos.
+                    <br>Por exemplo, se o binômio for elevado a quatro, os coeficientes serão os números que aparecem na
+                    linha quatro do triângulo de Pascal.
+                    <br>É importante lembrar também que, no triângulo de Pascal, começamos a contar as linhas e as
+                    colunas a partir da linha 0 e da coluna 0. Utilizando o triângulo de Pascal, calcularemos o seguinte
+                    binômio de Newton:
+
                     <br><strong>(a + b)^6</strong>
-                    
+
                     <br>Primeiro substituímos na fórmula:
                 </p>
 
                 <img src="../../assets/imagens-conteudos/triangulo-de-pascal/formula.png" alt="fórmula">
 
-                <p>Agora, em vez de calcular cada uma das combinações, basta olhar na linha 6 do triângulo de Pascal, que é composta pelos números 1, 6, 15, 20, 15, 6, 1. Então, substituiremos cada uma das combinações para esses valores, respeitando a ordem:</p>
+                <p>Agora, em vez de calcular cada uma das combinações, basta olhar na linha 6 do triângulo de Pascal,
+                    que é composta pelos números 1, 6, 15, 20, 15, 6, 1. Então, substituiremos cada uma das combinações
+                    para esses valores, respeitando a ordem:</p>
 
                 <p>(a+b)^6 = 1a^6 + 6a^5b + 15a^4b^2 + 20a^3b^3 + 15a^2b^4 + 6ab^5 + 1b^6
-                    <br>(a+b)^6 = a^6 + 6a^5b + 15a^4b^2 + 20a^3b^3 + 15a^2b^4 + 6ab^5 + b^6</p>
+                    <br>(a+b)^6 = a^6 + 6a^5b + 15a^4b^2 + 20a^3b^3 + 15a^2b^4 + 6ab^5 + b^6
+                </p>
             </div>
 
             <div id="termogeral">
@@ -65,10 +83,12 @@
                 <h2>TERMO GERAL</h2>
                 <hr>
 
-                <p>Algumas vezes, em vez de desenvolver todo o binômio de Newton, precisamos encontrar só um termo em específico. Para isso, existe a fórmula do termo geral do binômio de Newton.
+                <p>Algumas vezes, em vez de desenvolver todo o binômio de Newton, precisamos encontrar só um termo em
+                    específico. Para isso, existe a fórmula do termo geral do binômio de Newton.
                 </p>
 
-                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/formula-termo-geral.png" alt="fórmula termo geral">
+                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/formula-termo-geral.png"
+                    alt="fórmula termo geral">
 
                 <ul>
                     <li><strong>p+1 →</strong>termo a ser encontrado</li>
@@ -93,8 +113,8 @@
 
                 <p>Então, substituindo na fórmula, temos que:</p>
 
-                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/substituindo-na-formula.png" alt="">                
-                
+                <img src="../../assets/imagens-conteudos/triangulo-de-pascal/substituindo-na-formula.png" alt="">
+
                 <p>Calculando o binômio:</p>
                 <img src="../../assets/imagens-conteudos/triangulo-de-pascal/calculando-binomio.png" alt="">
             </div>
@@ -103,11 +123,11 @@
                 <h3>Para melhorar seus estudos...</h3>
                 <p>Matemática pode ser um conteúdo difícil. Para aumentar seu aprendizado, acesse ao mapa mental e a
                     playlist de vídeo aulas sobre este assunto:</p>
-    
+
                 <a href="#">
                     Mapa mental
                 </a>
-    
+
                 <a href="#">
                     playlist de videoaulas
                 </a>
@@ -115,12 +135,13 @@
             <a href="">
                 EXERCÍCIOS
             </a>
-    
+
             <a href="">
                 PRÓXIMO
             </a>
-            </div>
-        </main>
+    </div>
+    </main>
     </div>
 </body>
+
 </html>

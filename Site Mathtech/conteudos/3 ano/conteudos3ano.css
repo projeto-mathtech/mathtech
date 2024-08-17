@@ -12,6 +12,7 @@
     --laranja: #F68F06;
     --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
+    --pessego: #FFD67C;
     --amarelo-claro: #FFF494;
     --branco: #fff;
 }
@@ -31,11 +32,6 @@
     src: url('../../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
-@font-face {
-    font-family: Lemon Milk;
-    src: url('../../../fontes/lemon_milk/LEMONMILK-Medium.otf');
-}
-
 header {
     background-color: var(--laranja);
     max-height: 86px;
@@ -46,11 +42,6 @@ header {
     position: fixed;
     top: 0;
     width: 1440px;
-}
-
-#containerGlobal {
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 #navegacao nav {
@@ -106,6 +97,12 @@ h1 {
     font-size: 58px;
 }
 
+p {
+    color: var(--laranja);
+    margin-right: 550px;
+    margin-bottom: 20px;
+}
+
 main nav {
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
@@ -119,12 +116,12 @@ main nav {
     text-align: center;
     border-radius: 20px;
     padding: 30px;
-    margin-bottom: 50px;
     width: fit-content;
+    margin-bottom: 50px;
 }
 
 #conteudos a {
-    width: 200px;
+    width: 220px;
     margin: 20px;
     background-color: var(--azulzinho);
     border-radius: 10px;

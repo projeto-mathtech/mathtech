@@ -6,10 +6,12 @@
 }
 
 :root {
+    --azul-h1: #004AAD;
     --azulescuro: #0B3D80;
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
@@ -22,7 +24,7 @@
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../../../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../../fontes/baron_neue/Baron Neue Black.otf');
 }
 
 @font-face {
@@ -33,6 +35,10 @@
 @font-face {
     font-family: Lemon Milk;
     src: url('../../../fontes/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -81,6 +87,7 @@ header {
     color: var(--laranja);
     transition: 0.5s;
 }
+
 #headerDois{
     display: flex;
     flex-direction: row;
@@ -108,11 +115,12 @@ main a img{
 }
 
 #headerDois h1{
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 41px;
+    font-family: Lemon Milk;
+    font-size: 72px;
+    color: var(--azul-h1);
     font-weight: bolder;
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 hr{
@@ -136,48 +144,4 @@ p{
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
-}
-
-#intro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#intro img{
-    max-width: 1000px;
-    max-height: 1000px;
-    padding: 30px;
-}
-
-span{
-    font-size: 20px;
-    font-family: 'Circe';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h2{
-    color: var(--azulescuro);
-    margin-block: 15px;
-    font-size: 40px;
-}
-
-h3{
-    color: var(--azulclaro);
-    font-family: 'Circe';
-    font-size: 20px;
-}
-
-#somaPa{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-inline: 120px;
-}
-
-#somaPa p{
-    margin-left: 10px;
 }

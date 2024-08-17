@@ -7,6 +7,7 @@
 
 :root {
     --azulescuro: #0B3D80;
+    --azul-h1: #004AAD;
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
@@ -48,6 +49,7 @@ body {
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
+    background: var(--laranjaclaro);
 }
 
 header {
@@ -108,16 +110,13 @@ main a img{
     max-width: 170px;
 }
 
-h1 {
-    font-family: 'Hanken Grotesk';
-}
-
 #headerDois h1{
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 41px;
+    font-family: Lemon Milk;
+    font-size: 72px;
+    color: var(--azul-h1);
     font-weight: bolder;
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 hr{
@@ -125,10 +124,6 @@ hr{
     height: 2px; 
     background-color: var(--azulescuro);
     border-top: 2px dashed var(--azulescuro);
-}
-
-body{
-    background: var(--laranjaclaro);
 }
 
 h2{
@@ -160,12 +155,13 @@ strong {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
 }
 
 #intro img{
     max-width: 1000px;
     max-height: 1000px;
-    padding: 30px;
+    border: 8px solid var(--laranjamedio);
 }
 
 #apoio {
@@ -226,7 +222,7 @@ strong {
     margin-bottom: 10px;
 }
 
-.resolucao{
+.resolucoes{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,4 +230,71 @@ strong {
     font-family: 'Circe';
     font-size: 20px;
     text-align: center;
+}
+
+#graficoUm,
+#graficoDois{
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-inline: 60px;
+}
+
+#graficoUm img,
+#graficoDois img{
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-left: 60px;
+}
+#graficoUm img,
+#graficoDois img{
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-left: 60px;
+    justify-content: center;
+}
+
+ul{
+    font-family: 'Circe';
+    font-size: 20px;
+}
+
+#botoes{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#botaoExercicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azulescuro);
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 350px;
+    width: 320px;
+    color: var(--laranja);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
+}
+
+#botaoProximo{
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--laranja);
+    height: 70px;
+    border-radius: 15px;
+    width: 320px;
+    color: var(--azulescuro);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
 }

@@ -6,12 +6,14 @@
 }
 
 :root {
+    --azul-h1: #004AAD;
     --azulescuro: #0B3D80;
     --azulclaro: #4285F3;
     --azulzinho: #79BFFF;
     --laranja: #F68F06;
+    --laranjamedio: #FFC546;
     --laranjaclaro: #FFF1D6;
-    --laranjaclaro: #FFF1D6;
+    --laranjaclaro2: #FFD67C;
     --branco: #fff;
 }
 
@@ -22,7 +24,7 @@
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../../../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../../fontes/baron_neue/Baron Neue Black.otf');
 }
 
 @font-face {
@@ -33,6 +35,20 @@
 @font-face {
     font-family: Lemon Milk;
     src: url('../../../fontes/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
+}
+
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
@@ -72,8 +88,60 @@ header {
     transition: 0.5s;
 }
 
+#headerDois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headerDois button{
+    background: none;
+    border: none;
+    max-width: 150px;
+}
+
+#headerDois button img{
+    max-width: 100px;
+}
+
 main {
     margin-top: 5.375rem;
     padding-inline: 50px;
     background-color: var(--laranjaclaro);
+}
+
+main a img{
+    max-width: 170px;
+}
+
+#headerDois h1{
+    font-family: Lemon Milk;
+    font-size: 72px;
+    color: var(--azul-h1);
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+hr{
+    border: 0; 
+    height: 2px; 
+    background-color: var(--azulescuro);
+    border-top: 2px dashed var(--azulescuro);
+}
+
+body{
+    background: var(--laranjaclaro);
+}
+
+h2{
+    font-family: 'Hanken Grotesk';
+
+}
+
+p{
+    font-family: 'Circe';
+    font-size: 20px;
+    padding-inline: 40px;
+    margin: 20px;
 }
