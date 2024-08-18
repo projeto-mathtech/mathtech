@@ -13,6 +13,7 @@
     --laranjaclaro: #FFF1D6;
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
+    --branco2: #FFF9ED;
 }
 
 @font-face {
@@ -40,7 +41,7 @@ html {
 }
 
 body {
-    background-color: var(--laranjaclaro2);
+    background-color: #FFC179;
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
@@ -146,10 +147,10 @@ h1 {
     align-items: center;
     margin-top: -200px;
     padding: 50px;
-    height: 350px;
+    height: 400px;
     border-radius: 20px;
     font-family: 'Circe';
-    background-color: var(--branco);
+    background-color: var(--branco2);
 }
 
 #alternativas {

@@ -13,6 +13,7 @@
     --laranjaclaro: #FFF1D6;
     --laranjaclaro2: #FFD67C;
     --branco: #fff;
+    --branco2: #FFF9ED;
 }
 
 @font-face {
@@ -149,7 +150,7 @@ h1 {
     height: 350px;
     border-radius: 20px;
     font-family: 'Circe';
-    background-color: var(--branco);
+    background-color: var(--branco2);
 }
 
 #alternativas {
