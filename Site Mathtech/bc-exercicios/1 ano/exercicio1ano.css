@@ -129,7 +129,7 @@ h1 {
     background: none;
     border: none;
     margin-right: 150vh;
-    margin-top: 50px;
+    margin-top: -90px;
 }
 
 #seta-direita img {
@@ -144,7 +144,7 @@ h1 {
 #questao {
     display: flex;
     align-items: center;
-    margin-top: -350px;
+    margin-top: -200px;
     padding: 50px;
     height: 350px;
     border-radius: 20px;

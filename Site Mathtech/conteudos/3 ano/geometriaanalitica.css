@@ -384,3 +384,15 @@ ul{
     font-family: 'Baron Neue';
     font-size: 40px;
 }
+
+#botaoExercicios:hover{
+    transition: 300ms;
+    color: var(--laranjamedio);
+    background: var(--azulclaro);
+}
+
+#botaoProximo:hover {
+    transition: 300ms;
+    color: var(--azulescuro);
+    background: var(--laranjaclaro2);
+}

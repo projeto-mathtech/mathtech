@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,8 +19,10 @@
 }
 
 @font-face {
-    font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    font-family: Hanken Grotesk;
+    /* Nome que você usará para aplicar a fonte */
+    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+    /* Caminho e formato da fonte principal */
 }
 
 @font-face {
@@ -47,7 +49,7 @@ body {
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
-.escuro{
+.escuro {
     --laranjaclaro: #111A3E;
     --azul-h1: #F68F06;
     --azulclaro: #FFF1D6;
@@ -55,7 +57,7 @@ body {
     --azulescuro: #FFC546;
 }
 
-.fundoEscuro{
+.fundoEscuro {
     --laranjaclaro: #111A3E;
 }
 
@@ -97,24 +99,24 @@ header {
     margin-right: 10px;
 }
 
-#navegacao nav > a:hover{
+#navegacao nav>a:hover {
     color: var(--laranja);
     transition: 0.5s;
 }
 
-#headerDois{
+#headerDois {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#headerDois button{
+#headerDois button {
     background: none;
     border: none;
     max-width: 170px;
 }
 
-body{
+body {
     background: var(--laranjaclaro);
 }
 
@@ -123,11 +125,11 @@ main {
     padding-inline: 50px;
 }
 
-main a img{
+main a img {
     max-width: 170px;
 }
 
-#headerDois h1{
+#headerDois h1 {
     font-family: Lemon Milk;
     font-size: 72px;
     color: var(--azul-h1);
@@ -136,34 +138,34 @@ main a img{
     margin-bottom: 40px;
 }
 
-.hrHeader{
+.hrHeader {
     border: 3.5px solid var(--laranja);
     background: var(--laranja);
     color: var(--laranja);
 }
 
-hr{
-    border: 0; 
-    height: 2px; 
+hr {
+    border: 0;
+    height: 2px;
     background-color: var(--azulescuro);
     border-top: 2px dashed var(--azulescuro);
 }
 
-h2{
+h2 {
     color: var(--azulescuro);
     margin-block: 15px;
     font-family: 'Hanken Grotesk';
     font-size: 40px;
 }
 
-h3{
+h3 {
     color: var(--azulclaro);
     font-family: 'Circe';
     font-size: 20px;
 }
 
 
-p{
+p {
     font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
@@ -174,7 +176,7 @@ strong {
     color: var(--azulescuro);
 }
 
-#intro{
+#intro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -182,7 +184,7 @@ strong {
     padding: 30px;
 }
 
-#intro img{
+#intro img {
     max-width: 1000px;
     max-height: 1000px;
     border: 8px solid var(--laranjamedio);
@@ -246,7 +248,7 @@ strong {
     margin-bottom: 10px;
 }
 
-.resolucoes{
+.resolucoes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,7 +259,7 @@ strong {
 }
 
 #graficoUm,
-#graficoDois{
+#graficoDois {
     display: flex;
     flex-direction: row;
     margin-block: 10px;
@@ -265,14 +267,15 @@ strong {
 }
 
 #graficoUm img,
-#graficoDois img{
+#graficoDois img {
     display: flex;
     flex-direction: row;
     margin-block: 10px;
     padding-left: 60px;
 }
+
 #graficoUm img,
-#graficoDois img{
+#graficoDois img {
     display: flex;
     flex-direction: row;
     margin-block: 10px;
@@ -280,12 +283,12 @@ strong {
     justify-content: center;
 }
 
-ul{
+ul {
     font-family: 'Circe';
     font-size: 20px;
 }
 
-#botoes{
+#botoes {
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -293,7 +296,7 @@ ul{
     margin-bottom: 150px;
 }
 
-#botaoExercicios{
+#botaoExercicios {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +311,7 @@ ul{
     font-size: 40px;
 }
 
-#botaoProximo{
+#botaoProximo {
     margin-right: 400px;
     display: flex;
     justify-content: center;
@@ -321,4 +324,16 @@ ul{
     text-decoration: none;
     font-family: 'Baron Neue';
     font-size: 40px;
+}
+
+#botaoExercicios:hover{
+    transition: 300ms;
+    color: var(--laranjamedio);
+    background: var(--azulclaro);
+}
+
+#botaoProximo:hover {
+    transition: 300ms;
+    color: var(--azulescuro);
+    background: var(--laranjaclaro2);
 }
