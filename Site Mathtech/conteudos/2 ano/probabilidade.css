@@ -6,6 +6,7 @@
 }
 
 :root {
+    --color-text: #000;
     --azul-h1: #004AAD;
     --azulescuro: #0B3D80;
     --azulclaro: #4285F3;
@@ -161,6 +162,7 @@ p{
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
+    color: var(--color-text);
 }
 
 strong{
@@ -194,6 +196,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--color-text);
 }
 
 h2{
@@ -211,6 +214,7 @@ ul{
     font-family: 'Circe';
     font-size: 20px;
     padding-inline: 90px;
+    color: var(--color-text);
 }
 
 .resolucoes{

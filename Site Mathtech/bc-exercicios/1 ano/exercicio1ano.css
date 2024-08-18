@@ -94,8 +94,12 @@ main {
     justify-content: center;
 }
 
-main img {
+main > a {
     margin-right: 1200px;
+    width: 200px;
+}
+
+main img {
     width: 200px;
 }
 
@@ -112,28 +116,56 @@ h1 {
     font-weight: 800;
 }
 
-#seta {
+#seta-direita {
     width: 100px;
-    margin-bottom: 30px;
+    background: none;
+    border: none;
+    margin-left: 150vh;
+    margin-top: 50px;
 }
 
-#seta img {
+#seta-esquerda {
+    width: 100px;
+    background: none;
+    border: none;
+    margin-right: 150vh;
+    margin-top: 50px;
+}
+
+#seta-direita img {
     width: 100px;
     transform: scaleX(-1);
 }
 
+#seta-esquerda img {
+    width: 100px;
+}
+
 #questao {
+    display: flex;
+    align-items: center;
+    margin-top: -350px;
+    padding: 50px;
+    height: 350px;
+    border-radius: 20px;
     font-family: 'Circe';
     background-color: var(--branco);
-    
+}
+
+#alternativas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 #botoes{
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 150px;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 150px;
 }
 
 #botaoResolucao{
@@ -143,7 +175,6 @@ h1 {
     background: var(--azulescuro);
     height: 70px;
     border-radius: 15px;
-    margin-left: 350px;
     width: 320px;
     color: var(--laranja);
     text-decoration: none;
@@ -152,7 +183,6 @@ h1 {
 }
 
 #botaoProximo{
-    margin-right: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

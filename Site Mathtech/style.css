@@ -227,6 +227,12 @@ button:hover {
     font-family: 'Baron Neue';
 }
 
+#containerBoas button:hover{
+    transition: 300ms;
+    color: var(--azulescuro);
+    background: var(--laranjaclaro2);
+}
+
 #aTv {
     background-color: var(--azulescuro);
 }
@@ -257,6 +263,25 @@ button:hover {
     flex-direction: column;
     gap: 2.8rem;
     padding-top: 1.7rem;
+}
+
+#textoCont button:hover{
+    transition: 300ms;
+    color: white;
+    background: var(--azulclaro);
+}
+#aTvbutton button:hover,
+#textButton button:hover,
+#textosQuiz button:hover{
+    transition: 300ms;
+    color: #004AAD;
+    background: #FFC546;
+}
+
+#falediv2 button:hover{
+    transition: 300ms;
+    color: var(--azulescuro);
+    background: var(--laranjaclaro2);
 }
 
 #aTvbutton button {
