@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--laranjaclaro2);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
@@ -88,12 +88,45 @@ header {
 
 main {
     margin-top: 5.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img {
+    margin-right: 1200px;
+    width: 200px;
 }
 
 button:hover {
     cursor: pointer;
 }
 
+h1 {
+    margin-top: -130px;
+    color: var(--azulescuro);
+    margin-bottom: 70px;
+    font-size: 58px;
+    font-family: 'Hanken Grotesk';
+    font-weight: 800;
+}
+
+#seta {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+#seta img {
+    width: 100px;
+    transform: scaleX(-1);
+}
+
+#questao {
+    font-family: 'Circe';
+    background-color: var(--branco);
+    
+}
 
 #botoes{
     margin-top: 30px;

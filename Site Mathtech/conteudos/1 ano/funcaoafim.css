@@ -48,10 +48,15 @@ body {
 }
 
 .escuro{
-    --fundo-escuro: #111A3E;
+    --laranjaclaro: #111A3E;
     --azul-h1: #F68F06;
-    --laranjaclaro: #FFF1D6;
+    --azulclaro: #FFF1D6;
     --color-text: #fff;
+    --azulescuro: #FFC546;
+}
+
+.fundoEscuro{
+    --laranjaclaro: #111A3E;
 }
 
 #containerGlobal {
@@ -73,7 +78,7 @@ header {
 }
 
 #navegacao nav {
-    background-color: var(--laranjaclaro);
+    background-color: #FFF1D6;
     padding: 8px 45px;
     border-radius: 25px;
 }
