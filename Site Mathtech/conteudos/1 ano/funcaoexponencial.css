@@ -203,6 +203,10 @@ h3{
     text-align: center;
 }
 
+#grafico{
+    margin-bottom: 90px;
+}
+
 #apoio {
     background-color: var(--laranjamedio);
     padding: 20px;

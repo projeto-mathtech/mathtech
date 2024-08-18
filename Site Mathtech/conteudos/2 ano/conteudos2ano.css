@@ -121,7 +121,11 @@ main nav {
 }
 
 #conteudos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 220px;
+    height: 100px;
     margin: 20px;
     background-color: var(--pessego);
     border-radius: 10px;

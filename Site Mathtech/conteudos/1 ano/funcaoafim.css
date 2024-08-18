@@ -6,6 +6,7 @@
 }
 
 :root {
+    --color-text: #000;
     --azulescuro: #0B3D80;
     --azul-h1: #004AAD;
     --azulclaro: #4285F3;
@@ -44,6 +45,13 @@ html {
 body {
     background-color: rgb(245, 245, 245);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
+}
+
+.escuro{
+    --fundo-escuro: #111A3E;
+    --azul-h1: #F68F06;
+    --laranjaclaro: #FFF1D6;
+    --color-text: #fff;
 }
 
 #containerGlobal {
@@ -101,6 +109,10 @@ header {
     max-width: 170px;
 }
 
+body{
+    background: var(--laranjaclaro);
+}
+
 main {
     margin-top: 5.375rem;
     padding-inline: 50px;
@@ -150,6 +162,7 @@ p{
     font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
+    color: var(--color-text);
 }
 
 strong {

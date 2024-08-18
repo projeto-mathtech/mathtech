@@ -22,24 +22,31 @@
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../../fontes/circe-cufonfonts/CRC55.otf');
+    src: url('../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
+    src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: var(--laranjaclaro2);
-    height: 100vh;
 }
 
 header {
@@ -52,26 +59,6 @@ header {
     position: fixed;
     top: 0;
     width: 1440px;
-}
-
-main {
-    margin-top: 5.375rem;
-}
-
-#divmain {
-    display: flex;
-    align-items: center;
-}
-
-#divmain a {
-    margin-right: 27rem;
-}
-
-#divmain h1 {
-    color: var(--azulescuro);
-    font-family: 'Hanken Grotesk';
-    font-size: 46px;
-    font-weight: bolder;
 }
 
 #navegacao nav {
@@ -99,55 +86,49 @@ main {
     transition: 0.5s;
 }
 
-#conteudos {
-    background-color: var(--laranja);
-    max-width: 1310px;
-    margin: 0 auto;
-    border-radius: 16px;
+main {
+    margin-top: 5.375rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#botoes{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#botaoResolucao{
     display: flex;
     justify-content: center;
-    gap: 2.3rem;
-    padding-block: 4rem;
-}
-
-.q {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.q p {
-    font-size: 27px;
+    background: var(--azulescuro);
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 350px;
+    width: 320px;
+    color: var(--laranja);
+    text-decoration: none;
     font-family: 'Baron Neue';
-    color: var(--azulescuro);
-    gap: 0.2rem;
-    margin-top: 0.2rem;
+    font-size: 40px;
 }
 
-.q #mapas,
-.q #resumos,
-.q #videos {
+#botaoProximo{
+    margin-right: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#mapas,
-#resumos,
-#videos {
-    background-color: var(--branco);
-    border-radius: 16px;
-}
-
-#div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-}
-
-#div2 #resumos,
-#div2 #videos {
-    width: 400px;
-    height: 195px;
+    background: var(--azulzinho);
+    height: 70px;
+    border-radius: 15px;
+    width: 320px;
+    color: var(--laranjaclaro);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
 }

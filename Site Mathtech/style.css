@@ -90,6 +90,10 @@ main {
     margin-top: 5.375rem;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #boasVindas {
     max-width: 1440px;
     background-color: var(--azulescuro);

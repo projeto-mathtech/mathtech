@@ -34,23 +34,22 @@
 
         <main>
             <div id="headerDois">
-            <a href="./conteudos3ano.html">
-                <img src="../../assets/sair seta (2).png" alt="seta de voltar">
-            </a>
-            <hr>
-            <h1>ANÁLISE COMBINATÓRIA</h1>
-            <hr>
-            <hr>
-            <button>
-                <img src="../../../imagens mathtech/icon-sun.png" alt="">
-            </button>
-        </div>
+                <a href="./conteudos3ano.html">
+                    <img src="../../assets/sair seta.png" alt="seta de voltar">
+                </a>
+                <h1>ANÁLISE COMBINATÓRIA</h1>
+                <button>
+                    <img src="../../../imagens mathtech/icon-sun.png" alt="">
+                </button>
+            </div>
+            <hr class="hrHeader">
 
             <div id="intro">
+                <br>
                 <p>
                     A análise combinatória ou combinatória é a parte da Matemática que estuda métodos e técnicas que
                     permitem resolver problemas relacionados com contagem.
-                    <br>
+                    <br> <br>
                     Muito utilizada nos estudos sobre probabilidade, ela faz a análise das possibilidades e das
                     combinações possíveis entre um conjunto de elementos.
                 </p>
@@ -61,14 +60,14 @@
                 <h2>PRINCÍPIO FUNDAMENTAL</h2>
                 <hr>
                 <p>O princípio fundamental da contagem, também chamado de princípio multiplicativo, postula que:
-                    <br>
+                    <br> <br>
                     “Quando um evento é composto por n etapas sucessivas e independentes, de tal modo que as
                     possibilidades da primeira etapa é x e as possibilidades da segunda etapa é y, resulta no número
                     total de possibilidades de o evento ocorrer, dado pelo produto (x) . (y).”
-                    <br>
+                    <br> <br>
                     Em resumo, no princípio fundamental da contagem, multiplica-se o número de opções entre as escolhas
                     que lhe são apresentadas.
-                    <br>
+                    <br> <br>
                     <strong>Exemplo:</strong>
                 </p>
                 <div id="primeiroExemplo">
@@ -79,24 +78,26 @@
                         cupcake de cereja, cupcake de chocolate, cupcake de morango e cupcake de baunilha. Conside-
                         rando todas as opções oferecidas, de quantas maneiras um cliente pode escolher o seu lanche.</p>
                     <img src="../../assets/imagens-conteudos/analise-combinatoria/exemplificacao-do-cenario.png" alt="">
-                    <strong id="azulBold">
-                        Solução
-                    </strong>
-                    <p>Podemos começar a resolução do problema apresentado construindo uma árvore de possibilidades,
-                        conforme ilustrado abaixo:</p>
-                    <img src="../../assets/imagens-conteudos/analise-combinatoria/solucao-possibilidades.png" alt="">
-                    <p>Acompanhando o diagrama, podemos diretamente contar quantos tipos diferentes de lanches podemos
-                        escolher. Assim, identificamos que existem 24 combinações possíveis.
-                        <br>
-                        Podemos ainda resolver o problema usando o princípio multiplicativo. Para determinar as
-                        diferentes possibilidades de lanches, basta multiplicar o número de opções de sanduíches,
-                        bebidas e sobremesa.
-                        <br>
-                        <span>Total de possibilidades: 3.2.4 = 24 </span>
-
-                        Portanto, temos 24 tipos diferentes de lanches para escolher na promoção.
-                    </p>
                 </div>
+                <h3 id="azulBold">
+                    Solução
+                </h3>
+                <p>Podemos começar a resolução do problema apresentado construindo uma árvore de possibilidades,
+                    conforme ilustrado abaixo:</p>
+                <img src="../../assets/imagens-conteudos/analise-combinatoria/solucao-possibilidades.png" alt=""
+                    class="imgCenter">
+                <p>Acompanhando o diagrama, podemos diretamente contar quantos tipos diferentes de lanches podemos
+                    escolher. Assim, identificamos que existem 24 combinações possíveis.
+                    <br> <br>
+                    Podemos ainda resolver o problema usando o princípio multiplicativo. Para determinar as
+                    diferentes possibilidades de lanches, basta multiplicar o número de opções de sanduíches,
+                    bebidas e sobremesa.
+                    <br> <br>
+                    <span>Total de possibilidades: 3.2.4 = 24 </span>
+                    <br>
+                    Portanto, temos 24 tipos diferentes de lanches para escolher na promoção.
+                </p>
+
             </div>
 
             <div id="tipos">
@@ -118,13 +119,17 @@
                         3! = 3.2.1 = 6 <br>
                         7! = 7.6.5.4.3.2.1 = 5 040 <br>
                         10! = 10.9.8.7.6.5.4.3.2.1 = 3 628 800
-                    </span>
-                    ote que o valor do fatorial cresce rapidamente, conforme cresce o número. Então, frequentemente
+                    </span> <br>
+                    Note que o valor do fatorial cresce rapidamente, conforme cresce o número. Então, frequentemente
                     usamos simplificações para efetuar os cálculos de análise combinatória.
                 </p>
             </div>
 
             <div id="arranjos">
+                <hr>
+                <h2>ARRANJOS</h2>
+                <hr>
+
                 <div id="formulaArranjos">
                     <p> Nos arranjos, os agrupamentos dos elementos dependem da ordem e da natureza dos mesmos. Para
                         obter o arranjo simples de n elementos tomados, p a p (p ≤ n), utiliza-se a seguinte expressão:
@@ -132,7 +137,7 @@
                     <img src="../../assets/imagens-conteudos/analise-combinatoria/analise-combinatoria-arranjos-simples.png"
                         alt="">
                 </div>
-                <strong class="azulBold">Exemplo</strong>
+                <strong>Exemplo</strong>
                 <p>
                     Como exemplo de arranjo, podemos pensar na votação para escolher um representante e um
                     vice-representante de uma turma, com 20 alunos. Sendo que o mais votado será o representante e o
@@ -144,6 +149,10 @@
             </div>
 
             <div id="permutacoes">
+                <hr>
+                <h2>PERMUTAÇÕES</h2>
+                <hr>
+
                 <p>
                     As permutações são agrupamentos ordenados, onde o número de elementos (n) do agrupamento é igual ao
                     número de elementos disponíveis.
@@ -151,11 +160,14 @@
                     Note que a permutação é um caso especial de arranjo, quando o número de elementos é igual ao número
                     de agrupamentos. Desta maneira, o denominador na fórmula do arranjo é igual a 1 na permutação.
                     <br>
-                    Assim a permutação é expressa pela fórmula:
                 </p>
-                <img src="../../assets/imagens-conteudos/analise-combinatoria/permutacao-formula.png" alt="">
-
-                <strong class="azulBold">
+                <div id="imgPerm">
+                    <p>
+                        Assim a permutação é expressa pela fórmula:
+                    </p>
+                    <img src="../../assets/imagens-conteudos/analise-combinatoria/permutacao-formula.png" alt="">
+                </div>
+                <strong>
                     Exemplo
                 </strong>
                 <p>
@@ -165,11 +177,15 @@
                     Como a ordem em que irão se sentar é importante e o número de lugares é igual ao número de pessoas,
                     iremos usar a permutação:
                 </p>
-                <img src="../../assets/imagens-conteudos/analise-combinatoria/permutacao-formula-dois.png" alt="">
+                <img src="../../assets/imagens-conteudos/analise-combinatoria/permutacao-formula-dois.png" alt="" class="imgCenter">
                 <p>Logo, existem 720 maneiras diferentes para as 6 pessoas sentarem neste banco.</p>
             </div>
 
             <div id="combinacoes">
+                <hr>
+                <h2>COMBINAÇÕES</h2>
+                <hr>
+
                 <p>As combinações são subconjuntos onde a ordem dos elementos não é importante, entretanto, são
                     caracterizadas pela natureza dos mesmos.
                     <br>
@@ -177,8 +193,8 @@
                     seguinte expressão
                 </p>
                 <img src="../../assets/imagens-conteudos/analise-combinatoria/combinação-simples-de-n-elementos.png"
-                    alt="">
-                <strong class="azulBold">
+                    alt="" class="imgCenter">
+                <strong>
                     Exemplo
                 </strong>
                 <p>
@@ -205,22 +221,29 @@
                 <p>Matemática pode ser um conteúdo difícil. Para aumentar seu aprendizado, acesse ao mapa mental e a
                     playlist de vídeo aulas sobre este assunto:</p>
 
-                <a href="#">
-                    Mapa mental
-                </a>
+                <div id="a">
+                    <a href="#" id="laranja">
+                        Mapa <br>mental
+                    </a>
 
-                <a href="#">
-                    playlist de videoaulas
-                </a>
+                    <a href="#" id="azul">
+                        playlist de <br> videoaulas
+                    </a>
+                </div>
             </div>
-            <a href="">
-                EXERCÍCIOS
-            </a>
+    </div>
 
-            <a href="">
-                PRÓXIMO
-            </a>
-        </main>
+    <div id="botoes">
+        <a href="" id="botaoExercicios">
+            exercícios
+        </a>
+
+        <a href="./prismas.html" id="botaoProximo">
+            próximo
+        </a>
+    </div>
+    </div>
+    </main>
     </div>
 </body>
 

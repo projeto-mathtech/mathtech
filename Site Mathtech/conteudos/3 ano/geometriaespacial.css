@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +18,10 @@
 }
 
 @font-face {
-    font-family: Hanken Grotesk; /* Nome que você usará para aplicar a fonte */
-    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf'); /* Caminho e formato da fonte principal */
+    font-family: Hanken Grotesk;
+    /* Nome que você usará para aplicar a fonte */
+    src: url('../../../fontes/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf');
+    /* Caminho e formato da fonte principal */
 }
 
 @font-face {
@@ -42,13 +44,14 @@ html {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background: var(--laranjaclaro);
     /* colocar azulquase escuro no body, testar no pc da sala do wesley, para ver tamanho do todo */
 }
 
 #containerGlobal {
     max-width: 1440px;
     margin: 0 auto;
+    background: var(--laranjaclaro);
 }
 
 header {
@@ -83,24 +86,24 @@ header {
     margin-right: 10px;
 }
 
-#navegacao nav > a:hover{
+#navegacao nav>a:hover {
     color: var(--laranja);
     transition: 0.5s;
 }
 
-#headerDois{
+#headerDois {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#headerDois button{
+#headerDois button {
     background: none;
     border: none;
     max-width: 150px;
 }
 
-#headerDois button img{
+#headerDois button img {
     max-width: 100px;
 }
 
@@ -110,11 +113,11 @@ main {
     background-color: var(--laranjaclaro);
 }
 
-main a img{
+main a img {
     max-width: 170px;
 }
 
-#headerDois h1{
+#headerDois h1 {
     font-family: Lemon Milk;
     font-size: 72px;
     color: var(--azul-h1);
@@ -123,25 +126,223 @@ main a img{
     margin-bottom: 40px;
 }
 
-hr{
-    border: 0; 
-    height: 2px; 
+.hrHeader {
+    border: 3.5px solid var(--laranja);
+    background: var(--laranja);
+    color: var(--laranja);
+}
+
+hr {
+    border: 0;
+    height: 2px;
     background-color: var(--azulescuro);
     border-top: 2px dashed var(--azulescuro);
 }
 
-body{
-    background: var(--laranjaclaro);
-}
-
-h2{
+h2 {
     font-family: 'Hanken Grotesk';
 
 }
 
-p{
+p {
     font-family: 'Circe';
     font-size: 20px;
     padding-inline: 40px;
     margin: 20px;
+}
+
+#intro,
+#ponto,
+#plano {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro img {
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 30px;
+    padding-right: 60px;
+}
+
+#plano{
+    margin-bottom: 90px;
+}
+
+#ponto img,
+#plano img{
+    padding-right: 90px;
+}
+
+#reta img{
+    padding-left: 90px;
+}
+
+span {
+    font-size: 20px;
+    font-family: 'Circe';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: var(--azulescuro);
+    margin-block: 15px;
+    font-size: 40px;
+}
+
+#bhaskara {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 40px;
+}
+
+#bhaskara img {
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: var(--azulclaro);
+    font-family: 'Circe';
+    font-size: 20px;
+}
+
+.resolucoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--azulclaro);
+    font-family: 'Circe';
+    font-size: 20px;
+    text-align: center;
+}
+
+#apoio {
+    background-color: var(--laranjamedio);
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 10px;
+    width: 1000px;
+    font-family: 'Circe';
+}
+
+#apoio h3 {
+    color: var(--azulclaro);
+    font-size: 30px;
+    max-height: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#apoio p {
+    font-family: 'Circe';
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+#apoio a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 30px;
+    font-family: 'Baron Neue';
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    height: 200;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#laranja {
+    color: var(--azulescuro);
+    background-color: var(--laranja);
+}
+
+#azul {
+    color: var(--laranja);
+    background-color: var(--azulescuro);
+}
+
+#apoio p {
+    margin-bottom: 10px;
+}
+
+#graficoUm,
+#graficoDois {
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-inline: 60px;
+}
+
+#graficoUm img,
+#graficoDois img {
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-left: 60px;
+}
+
+#graficoUm img,
+#graficoDois img {
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    padding-left: 60px;
+    justify-content: center;
+}
+
+ul {
+    font-family: 'Circe';
+    font-size: 20px;
+}
+
+#botoes {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#botaoExercicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azulescuro);
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 350px;
+    width: 320px;
+    color: var(--laranja);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
+}
+
+#botaoProximo {
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--laranja);
+    height: 70px;
+    border-radius: 15px;
+    width: 320px;
+    color: var(--azulescuro);
+    text-decoration: none;
+    font-family: 'Baron Neue';
+    font-size: 40px;
 }
