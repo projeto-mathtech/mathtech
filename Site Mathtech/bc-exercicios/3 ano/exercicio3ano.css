@@ -23,18 +23,19 @@
 
 @font-face {
     font-family: Baron Neue;
-    src: url('../fontes/baron_neue/Baron\ Neue\ Black.otf');
+    src: url('../../fontes/baron_neue/Baron\ Neue\ Black.otf');
 }
 
 @font-face {
     font-family: Circe;
-    src: url('../fontes/circe-cufonfonts/CRC55.otf');
+    src: url('../../fontes/circe-cufonfonts/CRC55.otf');
 }
 
 @font-face {
     font-family: Lemon Milk;
-    src: url('../fontes/lemon_milk/LEMONMILK-Medium.otf');
+    src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
+
 
 html {
     scroll-behavior: smooth;
