@@ -49,6 +49,11 @@ header {
     width: 1440px;
 }
 
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 #navegacao nav {
     background-color: var(--laranjaclaro);
     padding: 8px 45px;

@@ -37,6 +37,11 @@
     src: url('../../fontes/lemon_milk/LEMONMILK-Medium.otf');
 }
 
+#containerGlobal {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 header {
     background-color: var(--laranja);
     max-height: 86px;
