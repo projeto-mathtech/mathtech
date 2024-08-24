@@ -551,6 +551,7 @@ button:hover {
 }
 
 #falediv2 button {
+    margin-top: 20px;
     width: 255px;
     border: none;
     height: 55px;
@@ -561,7 +562,7 @@ button:hover {
     font-family: 'Baron Neue';
 }
 
-#inputs {
+#inputs form {
     width: 470px;
     display: flex;
     flex-direction: column;
@@ -574,7 +575,7 @@ button:hover {
     font-size: 17px;
     padding: 6px 9px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Circe';
 }
 
@@ -588,5 +589,5 @@ button:hover {
     font-size: 17px;
     padding: 9px;
     font-family: 'Circe';
-    border-radius: 5px;
+    border-radius: 10px;
 }

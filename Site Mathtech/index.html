@@ -156,14 +156,24 @@
                         <div id="faleconoscoQuadro">
                             <h2>Fale conosco</h2>
                             <div id="inputs">
-                                <input type="text" placeholder="Insira seu nome">
-                                <input type="text" placeholder="Insira seu email">
-                                <input type="text" placeholder="Insira o assunto">
-                                <textarea placeholder="Insira sua mensagem (máx.300 caracteres)"></textarea>
+                                <form action="https://api.staticforms.xyz/submit" method="post">
+                                    <input type="hidden" name="accessKey" value="8b530559-50d9-4b64-9b3a-b6ad086366d8">
+                                    
+                                    <input type="name" placeholder="Insira seu nome" autocomplete="off">
+
+                                    <input type="email" placeholder="Insira seu email" autocomplete="off">
+
+                                    <textarea name="message" placeholder="Insira sua mensagem (máx.300 caracteres)"></textarea>
+
+                                    </div>
+                                    <a href="#"><button type="submit">enviar</button></a>
+                                    </div>
+
+                                    
+                                    <input type="hidden" name="redirectTo" value="https://5530-projetomathtec-mathtech-x4p25gskzvk.ws-us115.gitpod.io/Site%20Mathtech/enviado.html">
+                                </form>
                             </div>
-                        </div>
-                        <a href="#"><button>ACESSE</button></a>
-                    </div>
+                        
                 </div>
             </section>
         </main>
